@@ -5,6 +5,7 @@ import App from './App.jsx'
 import First from './component/first-cont.jsx'
 import Second from './component/second-cont.jsx'
 import Third from './component/third-cont.jsx'
+import Comfirmation from './component/comfirmation.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,8 @@ createRoot(document.getElementById('root')).render(
     <Second />
 
     <Third />
+
+    <Comfirmation />
 
   </StrictMode>,
 )
